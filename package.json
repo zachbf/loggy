@@ -1,19 +1,15 @@
 {
-  "name": "loggy",
-  "version": "0.0.1",
-  "description": "A simple flight and duty logbook.",
+  "name": "semantic-ui-app",
+  "version": "0.1.0",
   "main": "main.js",
-  "scripts": {
-    "start": "electron ."
+  "description": "Semantic UI App",
+  "license": "",
+  "dependencies": {
+    "electron": "^5.0.6",
+    "semantic-ui-css": "^2.2.12"
   },
-  "repository": "https://github.com/zachbf/loggy",
-  "keywords": [
-    "Electron",
-    "pilot logbook",
-  ],
-  "author": "zachbf",
-  "license": "MIT",
-  "devDependencies": {
-    "electron": "^5.0.6"
+  "scripts": {
+    "start": "electron .",
+    "debug": "electron . --debug"
   }
 }
