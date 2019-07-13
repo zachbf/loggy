@@ -1,0 +1,19 @@
+{
+  "name": "loggy",
+  "version": "0.0.1",
+  "description": "A simple flight and duty logbook.",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": "https://github.com/zachbf/loggy",
+  "keywords": [
+    "Electron",
+    "pilot logbook",
+  ],
+  "author": "zachbf",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^5.0.6"
+  }
+}
